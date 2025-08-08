@@ -9,6 +9,6 @@ def summarize(input):
 
 gr.close_all()
 
-demo = gr.Interface(fn=summarize, input="text", output="text")
+demo = gr.Interface(fn=summarize, inputs="text", outputs="text")
 
-demo.launch(share=Ture, server_port=8081)
+demo.launch(share=True, server_port=8081)
