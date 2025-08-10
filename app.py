@@ -12,4 +12,4 @@ gr.close_all()
 
 demo = gr.Interface(fn=summarize, inputs="text", outputs="text")
 
-demo.launch(server_name="0.0.0.0", server_port=7860)
+demo.launch(server_name="0.0.0.0", server_port=8081)
