@@ -1,5 +1,6 @@
 import gradio as gr
 from transformers import pipeline
+import torch
 
 get_completion = pipeline("summarization",model = "sshleifer/distilbart-cnn-12-6")
 
