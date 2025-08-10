@@ -1,7 +1,7 @@
 import gradio as gr
 from transformers import pipeline
 
-get_completion = pipeline("summarization",model = "shleifer/distilbart-cnn-12-6")
+get_completion = pipeline("summarization",model = "sshleifer/distilbart-cnn-12-6")
 
 def summarize(input):
   output = get_completion(input)
